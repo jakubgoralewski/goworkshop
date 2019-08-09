@@ -1,0 +1,17 @@
+# get all users
+GET localhost:8080/users
+
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 4331,
+  "name": "jakub",
+//  "surname": "goralewski",
+  "wiek": 24,
+  "phone": "dsadsad",
+  "s": "adsad"
+}
+
+###
